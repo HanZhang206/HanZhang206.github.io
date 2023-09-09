@@ -1,7 +1,7 @@
 # main links links
 main:
-  - title: "Projects"
-    url: /portfolio/
+  # - title: "Projects"
+    # url: /portfolio/
     
   - title: "CV"
     url: /files/CV_Han_Zhang.pdf
