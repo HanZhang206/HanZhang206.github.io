@@ -82,8 +82,8 @@ analytics:
 author:
   name             : "Han Zhang"
   avatar           : "profile.jpg"
-  bio              : "Master's Student in Biomedical Engineering"
-  location         : "Johns Hopkins University, Baltimore, MD"
+  bio              : 
+  location         : "Baltimore, MD"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?hl=en&user=lpCmX8AAAAAJ"
