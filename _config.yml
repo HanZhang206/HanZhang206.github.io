@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Your Name / Site Title"
+title                    : "Han Zhang"
 title_separator          : "-"
 name                     : &name "Your Name"
 description              : &description "personal description"
@@ -82,8 +82,8 @@ analytics:
 author:
   name             : "Han Zhang"
   avatar           : "profile.jpg"
-  bio              : "Master's Student in Biomedical Engineering at Johns Hopkins University"
-  location         : "Baltimore, MD"
+  bio              : "Master's Student in Biomedical Engineering"
+  location         : "Johns Hopkins University, Baltimore, MD"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?hl=en&user=lpCmX8AAAAAJ"
@@ -102,7 +102,7 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "https://www.linkedin.com/in/han-zhang-8b567b19b/"
+  linkedin         : "han-zhang-8b567b19b"
   orcid            : 
   pinterest        :
   soundcloud       :
