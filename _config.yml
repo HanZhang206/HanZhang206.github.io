@@ -82,11 +82,11 @@ analytics:
 author:
   name             : "Han Zhang"
   avatar           : "profile.jpg"
-  bio              : 
+  bio              : ""
   location         : "Baltimore, MD"
-  employer         :
-  pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=TPiFVrsAAAAJ&hl=en
+  employer         : ""
+  pubmed           : ""
+  googlescholar    : "https://scholar.google.com/citations?user=TPiFVrsAAAAJ&hl=en"
   email            : "hzhan206@jhu.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
