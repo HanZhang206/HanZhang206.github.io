@@ -1,0 +1,90 @@
+---
+---
+@charset "utf-8";
+
+/* Built-in Sass modules you’ll likely use across partials */
+@use "sass:math";
+@use "sass:string";
+
+/* Design tokens. The front matter (---) above is required for Jekyll to compile
+   this file — do not reformat or remove it. Keep this value in sync with
+   max_width in _config.yml. */
+@use "variables" with (
+  $max-content-width: 800px
+);
+
+/* Your project partials — convert these files to `@use "variables";`
+   (or `@use "variables" as *;`) inside each file and qualify variables if needed. */
+@use "themes";
+@use "layout";
+
+// Core styles organized by usage
+@use "typography";
+@use "navbar";
+@use "footer";
+@use "blog";
+@use "publications";
+@use "components";
+@use "utilities";
+
+// Other specialized styles
+@use "tabs";
+@use "teachings";
+@use "typograms";
+
+/******************************************************************************
+ * Site-specific overrides
+ ******************************************************************************/
+
+// Profile picture size on the about page
+@media (min-width: 576px) {
+  .profile {
+    width: 18%;
+  }
+}
+
+// Social icons under the profile picture on the about page
+.profile .social {
+  margin-top: 0.75rem;
+
+  .contact-icons {
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 0.45rem;
+
+    a {
+      padding: 0;
+
+      img {
+        width: 1.2rem;
+        height: 1.2rem;
+        margin-bottom: 0;
+      }
+
+      svg {
+        width: 1.3rem;
+        height: 1.45rem;
+        margin-bottom: 0;
+
+        image {
+          width: 1.3rem;
+          height: 1.3rem;
+        }
+      }
+    }
+  }
+}
+
+// Publications: larger preview image in the left column
+.publications ol.bibliography li {
+  .preview-col {
+    padding-right: 1rem;
+  }
+
+  .preview {
+    display: inline-block;
+    width: 100%;
+  }
+}

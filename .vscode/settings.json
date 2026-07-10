@@ -1,0 +1,7 @@
+{
+  // Jekyll SCSS files start with YAML front matter (---), which code formatters
+  // mangle into invalid syntax and break the site's CSS. Do not format on save.
+  "[scss]": {
+    "editor.formatOnSave": false
+  }
+}
