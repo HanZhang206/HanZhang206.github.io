@@ -22,6 +22,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a Ph.D. student in Computer Science at [Johns Hopkins University](https://www.jhu.edu/), advised by [Prof. Mathias Unberath](https://mathiasunberath.github.io). Before that, I earned an M.S. in Biomedical Engineering from Johns Hopkins University in 2023 and a B.S. in Biomedical Engineering from [University of California, Davis](https://bme.ucdavis.edu/) in 2022.
+I am a Ph.D. student in Computer Science at [Johns Hopkins University](https://www.jhu.edu/), advised by [Prof. Mathias Unberath](https://mathiasunberath.github.io). My research focuses on developing intelligent operating rooms through the integration of digital twins, computer vision, and robotics. 
 
-My research focuses on developing intelligent operating rooms through the integration of digital twins, computer vision, and robotics.
+Before that, I obtained an M.S.E. in Biomedical Engineering from Johns Hopkins University in 2023 and B.S. from [University of California, Davis](https://bme.ucdavis.edu/) in 2022.
